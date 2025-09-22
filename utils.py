@@ -7,6 +7,8 @@ import requests
 
 
 class StockClient:
+    TITLE = "Stock Market Project"
+    AUTHOR = "Author: Deanesh Takkallapati"
 
     def __init__(self):
         self.url = "https://alpha-vantage.p.rapidapi.com/query"
